@@ -1,0 +1,74 @@
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgb(1, 164, 197) 100%
+  );
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin-inline: auto;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left > h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.left > h1 {
+  font-size: 3.25rem;
+  margin-bottom: 10px;
+}
+.left > p {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+.right {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer h1 {
+  font-size: 4rem;
+}
+.footer p {
+  font-size: 2rem;
+}
+.footerBottom {
+  display: flex;
+  column-gap: 2rem;
+}
+.footerBottom > div > p,
+.footerBottom > div > h1,
+.footerTop > p {
+  text-align: center;
+}
